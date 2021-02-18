@@ -1,0 +1,40 @@
+
+footer {
+    position: relative;
+}
+
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* fr é unidade fracional, é como se tivesse dividindo em 33% (3 partes) */
+    max-width: 780px;
+    margin: 50px 100px;
+    grid-gap: 20px;
+    width: 100%;
+}
+
+.grid1 p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.grid1 > div:nth-child(n) {
+    border-style: solid;
+    border-radius: 5%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background: #003232;
+}
+
+@media (max-width: 800px) {
+    main {
+        display: inline-block;
+    }
+    
+    .grid1 img {
+        width 100%;
+    }
+}

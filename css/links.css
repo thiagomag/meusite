@@ -1,0 +1,33 @@
+
+footer {
+    position: relative;
+}
+
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* fr é unidade fracional, é como se tivesse dividindo em 33% (3 partes) */
+    max-width: 400px;
+    margin: 50px 500px;
+    grid-gap: 50px;
+}
+
+.grid1 p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.grid1 > div:nth-child(n) {
+    border-style: solid;
+    border-radius: 5%;
+    background: #003232;
+}
+
+.grid1 img {
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 5%
+}

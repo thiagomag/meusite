@@ -1,0 +1,22 @@
+footer {
+    position: relative;
+}
+
+main {
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 10px;
+}
+hr {
+    color: black;
+}
+
+.curriculo {
+    background: rgba(43, 71, 76, 0.3);
+    margin-top: 10px;
+}
+
+.curriculo2{
+    padding: 25px;
+    text-align: justify;
+}
